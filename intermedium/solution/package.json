@@ -1,0 +1,16 @@
+{
+  "name": "intermedium",
+  "version": "1.0.0",
+  "description": "Example intermedium app with docker-compose",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "mtorre4580",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0",
+    "axios": "^0.20.0"
+  }
+}

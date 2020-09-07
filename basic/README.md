@@ -3,6 +3,9 @@
 ## Goal
 It is intended that they can create an application and apply a basic docker configuration to it
 
+## Docker Hub
+https://hub.docker.com/repository/docker/mtorre4580/basic
+
 <div style="text-align:center;margin:auto">
     <img src="docker_node.png"  style="border-radius: 20px" />
 </div>

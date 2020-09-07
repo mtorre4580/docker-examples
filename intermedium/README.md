@@ -3,6 +3,9 @@
 ## Goal
 It is intended that they can create an application that uses several services and is related to each other using docker-compose
 
+## Docker Hub
+https://hub.docker.com/repository/docker/mtorre4580/intermedium
+
 <div style="text-align:center;margin:auto">
     <img src="docker-compose.png"  style="border-radius: 20px" />
 </div>

@@ -2,9 +2,9 @@
 
 This repository has 3 docker usage examples, from basic to advanced cases
 
-- [basic](https://github.com/mtorre4580/docker-examples/blob/master/basic/README.md)
-- [intermedium](https://github.com/mtorre4580/docker-examples/blob/master/intermedium/README.md)
-- [advanced](https://github.com/mtorre4580/docker-examples/blob/master/advanced/README.md)
+- [basic](https://github.com/mtorre4580/docker-examples/blob/master/basic)
+- [intermedium](https://github.com/mtorre4580/docker-examples/blob/master/intermedium)
+- [advanced](https://github.com/mtorre4580/docker-examples/blob/master/advanced)
 
 ### Docker
 

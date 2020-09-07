@@ -16,7 +16,7 @@ app.get("/sites/:siteId/search", async (req, res) => {
     const {
       data: { results },
     } = await axios.get(
-      `https://api.mercadolibre.com/sites/${siteId}/search?q=${q}`
+      `https://api.mercadolibre.com/sites/${siteId}/search?q=${q}&limit=5`
     );
     return res.json(results);
   }

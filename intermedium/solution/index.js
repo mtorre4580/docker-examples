@@ -25,8 +25,8 @@ const saveCache = async (key, items) => {
  */
 const retrieveCache = async (key) => {
   try {
-    const algo = await Connection.db.collection("items").findOne({ key });
-    return algo;
+    const response = await Connection.db.collection("items").findOne({ key });
+    return response;
   } catch (err) {
     console.error("Error to retrieve the last query from cache", err);
     return null;

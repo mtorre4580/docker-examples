@@ -46,6 +46,9 @@ configure your application's services. Then, using a single command, you create 
 - In a mongo: `docker exec -it idDelContainer bash`
 - Down app: `docker-compose down`
 
+### Install
+
+https://docs.docker.com/get-docker/
 
 <div style="text-align:center;margin:auto">
     <img src="docker-vs-vm.jpg"  style="border-radius: 20px" />

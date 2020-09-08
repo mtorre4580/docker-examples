@@ -5,6 +5,8 @@ This repository has 3 docker usage examples, from basic to advanced cases
 - [basic](https://github.com/mtorre4580/docker-examples/blob/master/basic)
 - [intermedium](https://github.com/mtorre4580/docker-examples/blob/master/intermedium)
 - [advanced](https://github.com/mtorre4580/docker-examples/blob/master/advanced)
+- [extras](https://github.com/mtorre4580/docker-examples/tree/master/extras)
+
 
 ### Docker
 
@@ -55,6 +57,11 @@ configure your application's services. Then, using a single command, you create 
 ### Install
 
 https://docs.docker.com/get-docker/
+
+### Example
+
+- Run mongo `docker run mongo`
+- Run redis `docker run redis`
 
 <div style="text-align:center;margin:auto">
     <img src="docker-vs-vm.jpg"  style="border-radius: 20px" />

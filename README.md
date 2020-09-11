@@ -71,6 +71,17 @@ By default is bridge, to change pass --network option
 
 To run docker run --network=host  mtorre4580/basic
 
+### Iptables
+Is a command-line firewall utility that uses policy chains to allow or block traffic. 
+When a connection tries to establish itself on your system, iptables looks for a rule in its list to match it to.
+If it doesn’t find one, it resorts to the default action.
+
+### Extras
+- 127.0.0.1 vs 0.0.0.0
+- IPv4 addresses can be represented in any notation that expresses a 32-bit integer value
+
+https://docs.docker.com/network/
+
 ### Install
 
 https://docs.docker.com/get-docker/

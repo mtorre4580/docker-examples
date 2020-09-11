@@ -1,4 +1,4 @@
-## Jenkis 
+## Jenkis
 
 Basic example of raising a jenkis with docker and creating a pipeline with nodejs
 
@@ -10,11 +10,11 @@ Basic example of raising a jenkis with docker and creating a pipeline with nodej
 - In order to persist the configuration data, it must be raised with a volume `docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts`
 
 <div style="text-align:center;margin:auto">
-    <img src="jenkis_default_pass.jpg"  style="border-radius: 20px" />
+    <img src="https://raw.githubusercontent.com/mtorre4580/docker-examples/master/jenkis/jenkis_default_pass.png"  style="border-radius: 20px" />
 </div>
 
 <div style="text-align:center;margin:auto">
-    <img src="jenkis_default.jpg"  style="border-radius: 20px" />
+    <img src="https://raw.githubusercontent.com/mtorre4580/docker-examples/master/jenkis/jenkis_default.png"  style="border-radius: 20px" />
 </div>
 
 ## Basic Pipeline
@@ -27,7 +27,11 @@ Basic example of raising a jenkis with docker and creating a pipeline with nodej
 6. Inside the created pipeline, copy the content of `Jenkisfile`
 
 <div style="text-align:center;margin:auto">
-    <img src="example_pipeline.jpg"  style="border-radius: 20px" />
+    <img src="https://raw.githubusercontent.com/mtorre4580/docker-examples/master/jenkis/jenkis_example_pipeline.png"  style="border-radius: 20px" />
+</div>
+
+<div style="text-align:center;margin:auto">
+    <img src="https://raw.githubusercontent.com/mtorre4580/docker-examples/master/jenkis/nodejs.png"  style="border-radius: 20px" />
 </div>
 
 ### Docs

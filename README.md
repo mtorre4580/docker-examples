@@ -8,6 +8,10 @@ This repository has 5 docker usage examples, from basic to advanced cases
 - [react app](https://github.com/mtorre4580/docker-examples/tree/master/extras)
 - [jenkis](https://github.com/mtorre4580/docker-examples/tree/master/extras)
 
+<div style="text-align:center;margin:auto">
+    <img src="docker_full.png"  style="border-radius: 20px" />
+</div>
+
 ### Docker
 
 Is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and deploy it as one package. 
@@ -55,6 +59,10 @@ configure your application's services. Then, using a single command, you create 
 - Down app: `docker-compose down`
 
 ### Networking
+
+<div style="text-align:center;margin:auto">
+    <img src="docker-network.png"  style="border-radius: 20px" />
+</div>
 
 By default is bridge, to change pass --network option
 

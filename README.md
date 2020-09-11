@@ -1,12 +1,12 @@
 ## Docker-Examples
 
-This repository has 3 docker usage examples, from basic to advanced cases
+This repository has 5 docker usage examples, from basic to advanced cases
 
-- [basic](https://github.com/mtorre4580/docker-examples/blob/master/basic)
-- [intermedium](https://github.com/mtorre4580/docker-examples/blob/master/intermedium)
-- [advanced](https://github.com/mtorre4580/docker-examples/blob/master/advanced)
-- [extras](https://github.com/mtorre4580/docker-examples/tree/master/extras)
-
+- [app with nodejs](https://github.com/mtorre4580/docker-examples/blob/master/basic)
+- [app with nodejs and mongoDB](https://github.com/mtorre4580/docker-examples/blob/master/intermedium)
+- [reverse proxy](https://github.com/mtorre4580/docker-examples/blob/master/advanced)
+- [react app](https://github.com/mtorre4580/docker-examples/tree/master/extras)
+- [jenkis](https://github.com/mtorre4580/docker-examples/tree/master/extras)
 
 ### Docker
 
@@ -53,6 +53,23 @@ configure your application's services. Then, using a single command, you create 
 - Run app with docker-compose: `docker-compose up`
 - In a mongo: `docker exec -it idDelContainer bash`
 - Down app: `docker-compose down`
+
+### Networking
+
+By default is bridge, to change pass --network option
+
+- `docker run image --network=none`
+- `docker run image --network=host`
+
+- Show networks: `docker network ls`
+- Connect to network: `docker network nameNetwork idContainer`
+
+- none: No network only localhost
+- host: Binding port to host
+- bridge: Default network containers
+- overlay: Virtual network, multiples containers see the network
+
+To run docker run --network=host  mtorre4580/basic
 
 ### Install
 

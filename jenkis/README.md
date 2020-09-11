@@ -9,9 +9,12 @@ Basic example of raising a jenkis with docker and creating a pipeline with nodej
 - We put the password and follow the basic installation
 - In order to persist the configuration data, it must be raised with a volume `docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts`
 
+## Example Pass
 <div style="text-align:center;margin:auto">
     <img src="https://raw.githubusercontent.com/mtorre4580/docker-examples/master/jenkis/jenkis_default_pass.png"  style="border-radius: 20px" />
 </div>
+
+## Example Default
 
 <div style="text-align:center;margin:auto">
     <img src="https://raw.githubusercontent.com/mtorre4580/docker-examples/master/jenkis/jenkis_default.png"  style="border-radius: 20px" />
@@ -26,10 +29,13 @@ Basic example of raising a jenkis with docker and creating a pipeline with nodej
 5. We leave the node plugin configured for all pipelines "Global Tool Configuration"  Nodejs
 6. Inside the created pipeline, copy the content of `Jenkisfile`
 
+## Example Pipeline Creation
+
 <div style="text-align:center;margin:auto">
     <img src="https://raw.githubusercontent.com/mtorre4580/docker-examples/master/jenkis/jenkis_example_pipeline.png"  style="border-radius: 20px" />
 </div>
 
+## Example Config
 <div style="text-align:center;margin:auto">
     <img src="https://raw.githubusercontent.com/mtorre4580/docker-examples/master/jenkis/nodejs.png"  style="border-radius: 20px" />
 </div>

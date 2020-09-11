@@ -54,7 +54,7 @@ configure your application's services. Then, using a single command, you create 
 - In a mongo: `docker exec -it idDelContainer bash`
 - Down app: `docker-compose down`
 
-### Networking
+### Networking
 
 By default is bridge, to change pass --network option
 
